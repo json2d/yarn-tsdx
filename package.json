@@ -2,7 +2,8 @@
   "name": "cypress-tsdx-storybook",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "tsdx": "^0.14.1"
   },
   "version": "1.0.0",
   "main": "index.js",
