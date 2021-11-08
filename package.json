@@ -1,7 +1,13 @@
 {
-  "name": "root",
+  "name": "cypress-tsdx-storybook",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+     "packages/*"
+  ] 
 }
