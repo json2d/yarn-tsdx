@@ -1,5 +1,5 @@
 {
-  "name": "cypress-tsdx-storybook",
+  "name": "lerna-tsdx",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0",
