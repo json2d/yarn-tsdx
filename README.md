@@ -13,6 +13,10 @@
 
 this is a [Yarn workspace](https://yarnpkg.com/features/workspaces) project composed of [multiple packages](#packages) for individual [TSDX](https://tsdx.io/) projects for quick and easy [TypeScript](https://www.typescriptlang.org/) development
 
+![node](https://img.shields.io/node/v/yarn-tsdx.svg)
+![license](https://img.shields.io/npm/l/yarn-tsdx.svg)
+![Travis](https://img.shields.io/travis/json2d/yarn-tsdx.svg)
+
 </div>
 
 ## getting started
