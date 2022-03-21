@@ -6,7 +6,9 @@ cache:
   directories:
     - node_modules
 script:
-  - yarn workspaces run test
+  - yarn workspaces run test --coverage # generates coverage reports for all the packages
+  - npx istanbul-combine -d coverage -p summary -r lcov packages/*/coverage/*.json # combine all coverage reports
+  - npx coveralls < coverage/lcov.info # push combined coverage report to Coveralls service
 branches:
   only:
   - main

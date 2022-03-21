@@ -16,6 +16,7 @@ this is a [Yarn workspace](https://yarnpkg.com/features/workspaces) project comp
 ![node](https://img.shields.io/node/v/yarn-tsdx.svg)
 ![license](https://img.shields.io/npm/l/yarn-tsdx.svg)
 ![Travis](https://img.shields.io/travis/json2d/yarn-tsdx.svg)
+![Coveralls github](https://img.shields.io/coveralls/github/json2d/yarn-tsdx.svg)
 
 </div>
 
