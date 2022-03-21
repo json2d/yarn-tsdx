@@ -7,3 +7,9 @@ cache:
     - node_modules
 script:
   - yarn workspaces run test
+branches:
+  only:
+  - main
+  - develop
+  - /^release\/.*$/
+  - /^hotfix\/.*$/
