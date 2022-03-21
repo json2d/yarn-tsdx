@@ -1,9 +1,15 @@
 language: node_js
 node_js:
-  - "10"
+  - "12"
 cache:
   yarn: true
   directories:
     - node_modules
 script:
   - yarn workspaces run test
+branches:
+  only:
+  - main
+  - develop
+  - /^release\/.*$/
+  - /^hotfix\/.*$/
