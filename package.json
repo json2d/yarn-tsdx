@@ -2,6 +2,7 @@
   "name": "yarn-tsdx",
   "private": true,
   "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "tsdx": "^0.14.1"
   },
   "version": "0.1.3",

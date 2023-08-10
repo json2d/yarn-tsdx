@@ -11,5 +11,6 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
  * A custom Thing component. Neat!
  */
 export const Thing: FC<Props> = ({ children }) => {
+  console.debug("hello dev!") // gets removed at build-time
   return <div>{children || `the snozzberries taste like snozzberries`}</div>;
 };
